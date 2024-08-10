@@ -51,25 +51,74 @@
     </div>
     <div class="col-5"><br><br>
     <h2 class="heading2">Leaderboard</h2>
-    <div class="mostd" >Most Donation</div>
-    <div class="mostr" >Most Recent</div>
-    <img class="pohon" src="assets/Frame 68.png">
+    <div class="underleader">
+        <div class="mostd" >Most Donation</div>
+        <div class="mostr" >Most Recent</div>
     </div>
-    <img class="pohon" src="assets/Frame 53.png">
+    <img src="assets/Frame 68.png">
+    </div>
+    <img src="assets/Frame 53.png">
   </div>
 </div>
 <!-- End Section 1 -->
 <!-- Section 2 -->
 <div class="container center">
   <div class="row">
+    <div class="parent">
+      <img src="assets/Frame 78.png">  
+    </div>
+    <h2 class="section2">About Green Haven Project</h2>
+  </div>
+        <p class="p1">The Green Haven Project - Mangrove aims to restore coastal ecosystems and raise awareness by planting mangroves and educating participants about the importance of these areas. This six-hour event will involve JCI members, local farmers, and students, focusing on combating beach erosion and promoting ESG values.</p>
+  <img src="assets/Frame 81.png">
+</div>
+<!-- End Section 2 -->
+<!-- Section 3 -->
+<div class="container center"><br><br>
+  <div class="row">
+</div>
+</div>
+<div class="container">
+<h2 class="section3">Event Summary</h2>
+        <p class="p2">We give you a brief overview of the event to give you a glimpse of what we're doing 
+        in the Green Haven Project, download the detailed PDF to see how you can get involved</p>
+  <div class="row align-items-start">
+    <div class="col"><br><br><br>
+      <img src="assets/Frame 43.png">
+    <p class="p3">Join the impactful journey of planting mangroves, where you'll learn, collaborate with locals, earn recognition, and share your story through media coverage</p>
+    </div>
     <div class="col">
-      Column2 
-      <img src="assets/Frame 41.png">  
+    <img src="assets/image 5.png">
+    </div>
+  </div><br><br>
+  <div class="row align-items-center">
+  </div>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+        <img src="assets/Frame 46.png">
+    </div>
+    <div class="col order-5">
+        <img src="assets/Frame 47.png">
+    </div>
+    <div class="col order-1">
+        <img src="assets/Frame 48.png">
+    </div>
+    <div class="col">
+        <img src="assets/Frame 49.png">
+    </div>
+    <div class="col order-5">
+        <img src="assets/Frame 50.png">
     </div>
   </div>
 </div>
-
+</div>
+<!-- End Section 3 -->
+<!-- Section 4 -->
+ <img src="assets/Frame 76.png">
+<!-- End Section 3 -->
 
     <!-- Bootstrap JavaScript components can be used here -->
 </body>
 </html>
+
