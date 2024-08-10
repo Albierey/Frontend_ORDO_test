@@ -5,8 +5,16 @@
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
 @import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 // Your custom styles here
+.outfit-uniquifier {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
 body {
     font-family: 'Outfit';
     font-weight: bold;
@@ -52,6 +60,10 @@ body {
     letter-spacing: -0.005em;
     color: #000000;
 }
+.underleader{
+    display: flex;
+    align-items: left;
+}
 .mostd{
     box-sizing: border-box;
     display: flex;
@@ -83,5 +95,59 @@ body {
     border-radius: 9000px;
     flex: none;
     order: 1;
+    flex-grow: 0;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.005em;
+    color: #000000;
+    text-align: center;
+}
+.section3{
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.005em;
+    color: #336913;
+    text-align: center;
+}
+.p1{
+    width: 900px;
+    height: 81px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+
+}
+.p2{
+    width: 700px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.p3{
+    width: 555.03px;
+    height: 66px;
+    font-weight: 300;
+    font-size: 16.0877px;
+    line-height: 135%;
+    flex: none;
+    order: 0;
     flex-grow: 0;
 }
