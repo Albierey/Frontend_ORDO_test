@@ -1,0 +1,87 @@
+// resources/css/app.scss
+
+// Import Bootstrap Variables (optional if you want to customize Bootstrap)
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Your custom styles here
+body {
+    font-family: 'Outfit';
+    font-weight: bold;
+}
+.btn-outline-success{
+    border-radius: 30px;
+    border: 1px solid green;
+}
+.border{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    gap: 10px;
+    width: 282px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 9000px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.heading{
+    width: 583px;
+    height: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: -0.005em;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.heading2{
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.005em;
+    color: #000000;
+}
+.mostd{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    width: 180px;
+    height: 47px;
+    background: #FFFFFF;
+    border: 1px solid #85BB50;
+    border-radius: 9000px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.mostr{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    width: 158px;
+    height: 47px;
+    border: 1px solid #DDDDDD;
+    border-radius: 9000px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
